@@ -1,0 +1,2 @@
+We made a group chat with the l33t h@ck0r$. To send them all a message,
+I got everyone's public key and broadcast my message encrypted with each one's public key. Only the recipient can read each message, right?

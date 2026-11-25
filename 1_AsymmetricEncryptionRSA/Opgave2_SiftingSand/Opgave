@@ -1,0 +1,3 @@
+You are given challenge.json and decryptor.py. The challenge contains n, e, a ciphertext and auxilliary encryption information. Your goal is to test multiple number sieves to find one that can factor n in a reasonable amount of time.
+
+When you have found p and q, compute d and decrypt the hidden message. Good luck.

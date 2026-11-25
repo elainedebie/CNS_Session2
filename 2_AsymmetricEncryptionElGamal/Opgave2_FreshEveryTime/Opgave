@@ -1,0 +1,3 @@
+After last week’s incident, the crypto team rewrote the encryption service. Every message now gets its own nonce, and they’ve checked that no nonce is ever used twice. To show there’s nothing to hide, they’ve also published one of the messages in plain text alongside its ciphertext.
+
+The flag was encrypted by the same service. Everything you need is in`ElGamal_challenge.json'.

@@ -1,0 +1,3 @@
+Our bank’s new payment system signs every transfer order with DSA, so nobody can forge one. We’ve published two recent signed orders as proof that the system works. The flag was encrypted with a key derived from the bank’s private signing key, which of course never leaves the server.
+
+Everything you need is in dsa1_challenge.json.

@@ -1,0 +1,5 @@
+The crypto engineer wanted decryption to be as fast as possible and made a questionable choice when generating the private key. He also likes really big and fast cars, I wonder if there is a correlation.
+
+See the challenge.json attached.
+
+Hint: the text was "encoded" as follows: m = bytes_to_long(FLAG), similarly FLAG = long_to_bytes(m)

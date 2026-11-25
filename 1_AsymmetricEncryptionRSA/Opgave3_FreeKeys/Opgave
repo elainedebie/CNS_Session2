@@ -1,0 +1,7 @@
+Free keys
+
+The cryptography team was thrilled to improve performance by reusing keys. Simply changing the exponent creates a different encryption output, that's as good as a new set of keys right?
+
+To show how it works, I'll give you challenge.json, you can clearly see that encrypting the same message twice, with the same modulus leads to a different output. Safe right?
+
+Hint: the text was "encoded" as follows: m = bytes_to_long(FLAG), similarly FLAG = long_to_bytes(m)
