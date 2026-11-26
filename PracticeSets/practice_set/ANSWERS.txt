@@ -1,0 +1,34 @@
+OEFENSET — antwoordsleutel (pas bekijken NA je poging)
+============================================================
+
+[01] challenge_01.json
+     type : RSA common factor (twee n delen een priem; gcd!)
+     flag : cns{ember_copper_gravity}
+
+[02] challenge_02.json
+     type : RSA common modulus (1 n, 2 exponenten)
+     flag : cns{cedar_lychee_falcon}
+
+[03] challenge_03.json
+     type : RSA Wiener (klein d; e enorm, ~grootte van n)
+     flag : cns{saffron_sunset_gravity}
+
+[04] challenge_04_keys.txt + _cts.txt
+     type : RSA broadcast Case A (kleine e, geen wraparound -> derdemachtswortel)
+     flag : cns{gravity_copper_zephyr}
+
+[05] challenge_05.json
+     type : RSA kleine n (factoriseren, block-mode zoals het exam)
+     flag : cns{gravity_marble_willow}
+
+[06] challenge_06.json
+     type : ElGamal nonce hergebruik (zelfde c1 + bekende plaintext)
+     flag : cns{zephyr_saffron_copper}
+
+[07] challenge_07.json
+     type : ElGamal kleine nonce (brute-force k uit c1)
+     flag : cns{onyx_cobalt_falcon}
+
+[08] challenge_08_keys.txt + _cts.txt
+     type : RSA Hastad broadcast Case B (e=3, ciphertexts verschillen -> CRT)
+     flag : cns{copper_tundra_gravity}
