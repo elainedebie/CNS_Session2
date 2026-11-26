@@ -1,0 +1,6 @@
+Opgave 08
+========================================
+
+To save on key management we reuse one modulus for the whole team and just give each person a different public exponent. Same message, two recipients, two exponents — changing the exponent is as good as a new key, so it stays secret, right?
+
+Bestand: challenge_08.json

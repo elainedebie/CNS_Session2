@@ -1,0 +1,6 @@
+Opgave 05
+========================================
+
+Decryption on our card reader was too slow, so the engineer tuned the private key to make it as fast as possible. He really likes big, fast sports cars too. The public key is below — read the message.
+
+Bestand: challenge_05.json

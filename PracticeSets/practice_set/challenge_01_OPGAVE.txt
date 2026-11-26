@@ -1,0 +1,6 @@
+Opgave 01
+========================================
+
+We generated this RSA key quickly on a small embedded device, so the modulus is a bit shorter than usual. The exponent is standard. Try whatever number-theoretic tricks you like to recover the private key and read the message.
+
+Bestand: challenge_01.json

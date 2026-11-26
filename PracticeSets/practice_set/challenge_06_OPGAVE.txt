@@ -1,0 +1,6 @@
+Opgave 06
+========================================
+
+I wanted to send the same short announcement to three colleagues at once, so I encrypted it separately under each of their public keys and posted all three. Their keys are all different, so this is safe to broadcast, right?
+
+Bestanden: challenge_06_keys.txt + challenge_06_cts.txt

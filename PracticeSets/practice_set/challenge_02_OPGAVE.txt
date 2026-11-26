@@ -1,0 +1,6 @@
+Opgave 02
+========================================
+
+Our ElGamal service encrypts every message with a random per-message value, so ciphertexts always look different. To prove there's nothing to hide we also publish one message in plain text next to its ciphertext. The flag was encrypted by the same service.
+
+Bestand: challenge_02.json

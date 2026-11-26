@@ -1,0 +1,6 @@
+Opgave 04
+========================================
+
+The same secret message was sent to all three members of the group chat, each encrypted under their own public key. Everyone uses the same tiny public exponent because it makes encryption fast. Surely three different keys means three safe messages?
+
+Bestanden: challenge_04_keys.txt + challenge_04_cts.txt

@@ -1,0 +1,6 @@
+Opgave 03
+========================================
+
+Generating good randomness on our IoT sensor is expensive, so the ElGamal per-message value is drawn from a small fast counter instead. It's still different every time, so it should be fine. One ciphertext is below.
+
+Bestand: challenge_03.json

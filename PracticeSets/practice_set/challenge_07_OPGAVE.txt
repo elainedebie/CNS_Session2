@@ -1,0 +1,6 @@
+Opgave 07
+========================================
+
+Our key server was low on entropy that morning and generated a big batch of RSA keys back to back. Here are two of them, each with the same message encrypted. Both moduli look perfectly large and random on their own. Can you still read the message?
+
+Bestand: challenge_07.json

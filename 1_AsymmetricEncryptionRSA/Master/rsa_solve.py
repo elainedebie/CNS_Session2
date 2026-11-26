@@ -367,18 +367,22 @@ def solve(paths, flaghint="cns"):
         if pt is not None and report("given-pq decrypt", pt):
             return finish(results)
 
-    # 1) common factor across distinct moduli
-    if len(distinct_n) >= 2:
-        for i in range(len(distinct_n)):
-            for j in range(i + 1, len(distinct_n)):
-                g = gcd(distinct_n[i], distinct_n[j])
+    # 1) common factor across moduli (use ORIGINAL order so each n keeps its own c, e)
+    if len(ns) >= 2:
+        for i in range(len(ns)):
+            for j in range(i + 1, len(ns)):
+                if ns[i] == ns[j]:
+                    continue
+                g = gcd(ns[i], ns[j])
                 if g > 1:
                     print(f"\n[!] gcd(n{i+1}, n{j+1}) = shared prime -> factoring both!")
-                    for idx, n in ((i, distinct_n[i]), (j, distinct_n[j])):
+                    for idx in (i, j):
+                        n = ns[idx]
                         p = g; q = n // g
                         phi = (p - 1) * (q - 1)
+                        e_here = es[idx] if idx < len(es) else e0
                         try:
-                            d = pow(e0, -1, phi)
+                            d = pow(e_here, -1, phi)
                         except Exception:
                             continue
                         c = cs[idx] if idx < len(cs) else single_c
